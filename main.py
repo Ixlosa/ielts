@@ -2,7 +2,7 @@ import os, json
 import telebot
 from telebot import types
 
-TOKEN = os.environ[7708038290:AAGT7-Lw4BU8d-6lyPzoBJA5NuRL1SXMrjA]
+TOKEN = os.environ["7708038290:AAGT7-Lw4BU8d-6lyPzoBJA5NuRL1SXMrjA"]
 bot = telebot.TeleBot(TOKEN)
 PROGRESS_FILE = "progress.json"
 
